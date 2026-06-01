@@ -57,6 +57,7 @@ function App() {
       }}
     >
       <h2 style={{ color: "grey" }}>Password Generator</h2>
+      <p> Create strong and secure password</p><br />
 
       <div
         style={{
