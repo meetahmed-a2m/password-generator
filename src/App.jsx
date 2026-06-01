@@ -11,7 +11,7 @@ import AutorenewIcon from "@mui/icons-material/Autorenew";
 import { useState, useCallback, useEffect, useRef } from "react";
 
 function App() {
-  const [Length, setLength] = useState(5);
+  const [Length, setLength] = useState(6);
   const [numAllowed, setNumAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState("");
