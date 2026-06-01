@@ -11,13 +11,13 @@ import AutorenewIcon from "@mui/icons-material/Autorenew";
 import { useState, useCallback, useEffect, useRef } from "react";
 
 function App() {
-  const [Length, setLength] = useState(6);
+  const [Length, setLength] = useState(5);
   const [numAllowed, setNumAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState("");
 
   const [open, setOpen] = useState(false);  
-  const [showPassword, setShowPassword] = useState(false);
+  const [showPassword, setShowPassword] = useState(true);
 
   const passwordRef = useRef(null);
 
@@ -57,8 +57,6 @@ function App() {
       }}
     >
       <h2 style={{ color: "grey" }}>Password Generator</h2>
-      <p style={{ color: "grey" }}>Generate a secure password with customizable options</p>
-
 
       <div
         style={{
